@@ -356,6 +356,8 @@ a{
   content: "";
   display: table;
   clear: both;
+    margin-left: 10px;
+  margin-right: 10px;
 }
 
 /* Style the counter cards */
@@ -378,6 +380,8 @@ a{
     width: 100%;
     display: block;
     margin-bottom: 20px;
+      margin-left: 10px;
+  margin-right: 10px;
   }
 }
 
