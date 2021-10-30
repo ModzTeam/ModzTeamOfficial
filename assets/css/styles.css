@@ -200,6 +200,8 @@ a{
 .card {
   border-radius: 15px;
   background-color: rgb(40, 41, 61, 1);
+    margin-left: 10px;
+  margin-right: 10px;
 }
 
 
