@@ -36,7 +36,7 @@
         <meta property="twitter:image" content="./assets/img/modz.png"/>
 
         <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="../assets/css/styles.css">
 
         <title>ModzTeamOfficial</title>
     </head>
@@ -51,6 +51,66 @@
 	font-display: block;
 	src: url(https://modzteam.github.io/ModzTeamRepo/fonts/NewPressEroded.otf);
 }
+.package>img {
+  border-radius: 20px;
+  width: 75px;
+  height: 75px;
+  float: left;
+}
+
+.package_info {
+  margin-left: 90px;
+}
+
+.package_name {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.package_caption {
+  margin-top: 7px;
+  color: #999;
+}
+
+.cell>.title {
+  float: left;
+  color: #999;
+}
+
+.cell>.text {
+  float: right;
+
+}
+
+h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.banner_underlay {
+  background-size: cover;
+  background-position: center;
+  height: 175px;
+  width: 100%;
+  border-radius: 8px;
+  z-index: -2;
+  margin-bottom: 25px;
+  top: 0;
+}
+
+.Downbutton {
+  background-color: #2ecc71; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width:150px;
+  cursor: pointer;
+  border-radius: 10px;
+}
 </style>
 
     <body id="body-pd">
@@ -60,7 +120,7 @@
             </div>
               <span style="font-family: Modish; font-size:20px"> ModzTeamOfficial</span>
             <div class="header__img">
-                <img src="assets/img/skull.png" alt="">
+                <img src="../assets/img/skull.png" alt="">
             </div>
         </header>
 
@@ -74,32 +134,32 @@
                     </a>
 
                     <div class="nav__list">
-                        <a href="#" class="nav__link active">
+                        <a href="../index.html" class="nav__link active">
                         <i class='bx bx-grid-alt nav__icon' ></i>
                             <span class="nav__name">Dashboard</span>
                         </a>
 
-                        <a href="./ios.html" class="nav__link">
+                        <a href="../ios.html" class="nav__link">
                             <i class='bx bxl-apple nav__icon' ></i>
                             <span class="nav__name">iOS</span>
                         </a>
                         
-                        <a href="./android.html" class="nav__link">
+                        <a href="../android.html" class="nav__link">
                             <i class='bx bxl-android nav__icon' ></i>
                             <span class="nav__name">Android</span>
                         </a>
 
-                        <a href="./files.html" class="nav__link">
+                        <a href="../files.html" class="nav__link">
                             <i class='bx bx-code nav__icon' ></i>
                             <span class="nav__name">IDs</span>
                         </a>
 
-                        <a href="./credits.html" class="nav__link">
+                        <a href="../credits.html" class="nav__link">
                             <i class='bx bx-user nav__icon' ></i>
                             <span class="nav_p_name">Team</span>
                         </a>
 
-                        <a href="./discord.html" class="nav__link">
+                        <a href="../discord.html" class="nav__link">
                             <i class='bx bxl-discord nav__icon' ></i>
                             <span class="nav__name">Discord</span>
                         </a>
@@ -112,119 +172,27 @@
                 </a>
             </nav>
         </div>
-        
-<br><br>
-<h1>Featured</h1>
-<div class="banner">
-   <img src="./assets/img/bcw6.1.1devMod.png">
-      <div class="blur-background"> 	 
-         <div class ="gett-btn" onclick="window.location.href='./threads/BlockCityWars6.1.1mod.html'"">View</div>
-	         <h2 style="color: white;font-size:19px">BlockCityWars - <i class='bx bxl-android nav__icon' ></i> v6.1.1</h2>
-         </div>
-      </div>
-   </div>
-  </div>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<!--
-<button class="accordion">How to find other mods</button>
-<div class="panel">
-   <center>
-  <p><b>Tap on the section you want</b></p>
-   <a href="./ios.html">
-      <i class='bx bxl-apple' style="color: #2ecc71;"></i>
-         <span style="color: #2ecc71;">iOS</span>
-            </a>
-            <br><br>
-   <a href="./android.html">
-      <i class='bx bxl-android' style="color: #2ecc71;"></i>
-         <span style="color: #2ecc71;">Android</span>
-      </a>
-         <br><br>
-   <a href="./files.html">
-      <i class='bx bx-code' style="color: #2ecc71;"></i>
-         <span style="color: #2ecc71;">Other Files</span>
-      </a>
-         <br><br>
-   <a href="./credits.html">
-      <i class='bx bx-user' style="color: #2ecc71;"></i>
-         <span style="color: #2ecc71;">Team Members</span>
-      </a>
-         <br><br>
-   <a href="./discord.html">
-      <i class='bx bxl-discord' style="color: #2ecc71;"></i>
-         <span style="color: #2ecc71;">Discord Server</span><br><br>
-      </a>
-</div>
-<br>
-<h1>News</h1>
- 
-    <div class="card" style="height:270px"> 
-       <p><b>Regular News</b></p>
-       <p>• The current featured mod isnt the fucking android mod, has an apple logo for a reason</p>
-       <p><b>Upcoming Modz</b></p>
-       <p>• ModMenuX Android 6.5.6 (v1.5)</p>
-  </div>
-<br> -->
-<style>
-ul {
-  list-style:none;
-  padding-left: 1em;
-}
-li {
-  &:before {
-    content: '';
-    display: inline-block;
-    height: 1em;
-    width: 1em;
-    background-image: url(http://placehold.it/32?text=fallback); // Fallback PNG
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/93/Tango-bullet.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right:0.5em;   
-  }
-}
-</style>
-<br>
-<h1>Technologies</h1>
-  <div class="card" style="text-align:left;height:380px"> 
-<ul>
-  <li><i class="fa fa-html5" aria-hidden="true" style="font-size:30px;"></i> <span style="font-size: 30px;">&nbsp;<b>Website</b></span></li>
-  <li style="font-size:13px;color:#ABACB0"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; HTML & CSS</li>
-  <br>
-  <li><i class="fa fa-react" aria-hidden="true" style="font-size:30px;"></i> <span style="font-size: 30px;">&nbsp;<b>Mods</b></span></li>
-  <li style="font-size:13px;color:#ABACB0"">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; C++ & C#</li>
-  <br>
-  <li><i class="fa fa-java" aria-hidden="true" style="font-size:30px;"></i> <span style="font-size: 30px;">&nbsp;&nbsp;<b>User Interface</b></span></li>
-  <li style="font-size:13px;color:#ABACB0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Java & Objective-C++</li>
-  <br>
-   <li><i class="fa fa-nodejs" aria-hidden="true" style="font-size:30px;"></i> <span style="font-size: 30px;">&nbsp;&nbsp;<b>Discord Bot</b></span></li>
-   <li style="font-size:13px;color:#ABACB0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Node.js</li>
-</ul>
-</div>
-<br>
-<h1>Support Us</h1>
 
-<div class="cell">
-    <a class="get-btn1" href="https://youtube.com/channel/UCtlIuBwwcMq4REONGsaKgbQ">View</a>
-        <img class="icon1" src="https://modzteam.github.io/ModzTeamRepo/assets/CydiaIcon2.png">
-          <div class="app-info">
-            <h3 style="margin-top: 0px;">&nbsp;&nbsp;ModzTeam</h3>
-            <p style="margin-top: -18px;">&nbsp;&nbsp;&nbsp;YouTube</p>
-          </div>
-       </div>
-       
-       <center>
-       <p><b>view full team <a style="color: #2ec771" href="./credits.html">here</a></b></p>
-      <br>
+ <div style="background-image: url(../assets/img/aX6.5.6.png)" class="banner_underlay"></div>
+ <div class="card" style="text-align:left;"> 
+<div class="bgimg">
+  </div>
+  <div class="middle">
+    <h1 style="font-family: Modish">COMING SOON</h1>
+    <hr>
+    <p id="demo" style="font-size:30px; font-family: Modish;"></p>
+  </div>
+</div>
+</div>
+<br>
 <br>
 <p style="font-size: 10px; text-align:center">2021 © ModzTeam All Rights Reserved
  <br>
  <br>
+ 
         <!--===== MAIN JS =====-->
         <script>
            
@@ -245,9 +213,36 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 </script>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Nov 23, 2021 15:37:25").getTime();
 
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
 
-
-        <script src="assets/js/main.js"></script>
+  // Get todays date and time
+  var now = new Date().getTime();
+  
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+  
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(countdownfunction);
+    document.getElementById("demo").innerHTML = "Updating";
+  }
+}, 1000);
+</script>
+        <script src="../assets/js/main.js"></script>
     </body>
 </html>
