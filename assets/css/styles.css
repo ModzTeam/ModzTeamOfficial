@@ -222,17 +222,17 @@ a{
   text-align: center;
 }
 
-.card1 {
-  flex-shrink: 0;
+.card {
+
   width: 280px;
   height: 155px;
-  display: block;
+
   margin-left: 10px;
   margin-right: 10px;
   
 }
 
-.card1 img {
+.card img {
   width: 280px;
   border-radius: 15px;
   height: 150px;
