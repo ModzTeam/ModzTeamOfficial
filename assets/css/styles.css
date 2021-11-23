@@ -1,4 +1,11 @@
-/*===== GOOGLE FONTS =====*/
+.card {
+
+  width: 280px;
+  height: 155px;
+
+  
+  
+}/*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 
 /*===== VARIABLES CSS =====*/
@@ -197,7 +204,7 @@ a{
   }
 }
 
-.card1 {
+.card {
   border-radius: 15px;
   background-color: rgb(40, 41, 61, 1);
     margin-left: 10px;
@@ -222,7 +229,15 @@ a{
   text-align: center;
 }
 
-
+.card {
+  flex-shrink: 0;
+  width: 280px;
+  height: 155px;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
 
 .card img {
   width: 280px;
@@ -313,17 +328,70 @@ a{
   margin-left: 10px;
 }
 
+.slide-container {
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  min-width: 390px;
+  display: flex;
+}
+.slide {
+  scroll-snap-align: start;
+  min-width: 390px;
+  height: 40vh;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+    margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+/*.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+    margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
- border-radius: 15px;
- margin-left: 10px;
- margin-right: 10px;
+ 
   width: 360px;
   height: 300px;
   text-align: center;
   background-color: #1a1a1a;
   
+}
+ .dark-card {
+  background-color: #ffffff;
+}
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+      margin-left: 10px;
+  margin-right: 10px;
+  }
 }
 
 .icon1 {
