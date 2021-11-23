@@ -197,7 +197,7 @@ a{
   }
 }
 
-.card {
+.card1 {
   border-radius: 15px;
   background-color: rgb(40, 41, 61, 1);
     margin-left: 10px;
@@ -222,7 +222,7 @@ a{
   text-align: center;
 }
 
-.card {
+.card1 {
   flex-shrink: 0;
   width: 280px;
   height: 155px;
@@ -232,7 +232,7 @@ a{
   
 }
 
-.card img {
+.card1 img {
   width: 280px;
   border-radius: 15px;
   height: 150px;
