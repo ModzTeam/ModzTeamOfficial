@@ -1,11 +1,4 @@
-.card {
-
- 
-  height: 155px;
-
-  
-  
-}/*===== GOOGLE FONTS =====*/
+/*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 
 /*===== VARIABLES CSS =====*/
@@ -232,7 +225,7 @@ a{
 .card {
   flex-shrink: 0;
 
-  height: 155px;
+ 
   display: block;
   margin-left: 10px;
   margin-right: 10px;
@@ -242,7 +235,7 @@ a{
 .card img {
 
   border-radius: 15px;
-  height: 150px;
+  
 }
 
 @supports (
@@ -375,7 +368,7 @@ a{
   padding: 16px;
  
   
-  height: 300px;
+
   text-align: center;
   background-color: #1a1a1a;
   
