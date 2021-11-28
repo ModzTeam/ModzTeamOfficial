@@ -282,7 +282,7 @@ a{
 }
 
 .banner img {
-  
+  width: 360px;
   border-radius: 15px;
   
   color: white;
@@ -296,7 +296,7 @@ a{
     position: relative;
     bottom: 60px;
     padding: 5px;
-    
+    width: 360px;
     background: rgba(0, 0, 0, 0.6);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
