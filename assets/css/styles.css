@@ -195,14 +195,11 @@ a{
   .body-pd{
     padding-left: calc(var(--nav-width) + 188px);
   }
+
+
+
 }
 
-.card {
-  border-radius: 15px;
-  background-color: rgb(40, 41, 61, 1);
-    margin-left: 10px;
-  margin-right: 10px;
-}
 
 
 .get-btn {
@@ -222,15 +219,6 @@ a{
   text-align: center;
 }
 
-.card {
-  flex-shrink: 0;
-
- 
-  display: block;
-  margin-left: 10px;
-  margin-right: 10px;
-  
-}
 
 .card img {
 
@@ -366,16 +354,17 @@ a{
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
- 
-  
-
   text-align: center;
   background-color: #1a1a1a;
+   flex-shrink: 0;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+
   
 }
- .dark-card {
-  background-color: #ffffff;
-}
+
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
   .column {
@@ -431,7 +420,7 @@ margin-top:8px;
   color: #fff;
   cursor: pointer;
   padding: 18px;
-  width: 362px;
+  width: 100%;
   border: none;
   border-radius: 15px;
   text-align: left;
