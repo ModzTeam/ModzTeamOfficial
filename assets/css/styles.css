@@ -1,6 +1,6 @@
 .card {
 
-  width: 280px;
+ 
   height: 155px;
 
   
@@ -231,7 +231,7 @@ a{
 
 .card {
   flex-shrink: 0;
-  width: 280px;
+
   height: 155px;
   display: block;
   margin-left: 10px;
@@ -240,7 +240,7 @@ a{
 }
 
 .card img {
-  width: 280px;
+
   border-radius: 15px;
   height: 150px;
 }
@@ -374,7 +374,7 @@ a{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
  
-  width: 360px;
+  
   height: 300px;
   text-align: center;
   background-color: #1a1a1a;
