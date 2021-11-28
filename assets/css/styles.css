@@ -196,7 +196,10 @@ a{
     padding-left: calc(var(--nav-width) + 188px);
   }
 
-
+  .player {
+    width: 600px;
+    height: 400px;
+  }
 
 }
 
@@ -397,6 +400,12 @@ border-radius: 23.3%;
   }
 }
 
+.player {
+
+  width: 300;
+  height: 165;
+}
+
 .get-btn1 {
 color: #000000;
 display: block;
@@ -420,7 +429,7 @@ margin-top:8px;
   color: #fff;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 362px;
   border: none;
   border-radius: 15px;
   text-align: left;
