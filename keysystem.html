@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,maximum-scale=1,minimum-scale=1">
+  <title>Key System</title>
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+  #pkgSelect {
+    color: #fff !important;
+    border: 1px solid #f3f3f3;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 1.5%;
+    border-radius: 20px;
+    padding: 7px;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    outline: none;
+  }
+
+  .spacer {
+    padding-left: 10px;
+    padding-right: 10px
+  }
+</style>
+
+<body>
+
+  <header id="gradient">
+    <nav>
+      <div class="flex-action-bar">
+        <a href="ios.html"><span style="color: white" class="las la-angle-left"></span></a>
+        <div class="info">
+          <h2 style="color: white">Key System</h2>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="product-details section-wrapper">
+      <center>
+        <form name="KeySystem">
+          <span style="color:white;">
+            ID:
+          </span><br>
+          <input class="spacer" style="border-radius:15px; border:none; width: 70%" type="text" name="idInput">
+          <br>
+          <span style="color:white;">
+            Key:
+          </span><br>
+          <input class="spacer" style="border-radius:15px; border:none; width: 70%" type="text" name="keyOutput" id="Output2">
+          <br><br>
+
+          <br>
+
+          <div style="margin-right:240px" class="button" onClick="GetKey()">
+            <div class="content">
+              <i class="bx bx-copy-alt"></i>
+              <span class="button-text">Generate</span>
+            </div>
+          </div>
+    </div>
+
+
+    </form>
+
+    </center>
+  </main>
+  <script>
+    function GetKey() {
+      var id, key;
+      var a = 45;
+      var b = 67986;
+      var c = 60;
+      var d = 9385119;
+      id = Number(document.KeySystem.idInput.value);
+      key = id * a + b * c + d;
+      document.KeySystem.keyOutput.value = key;
+      var copyText = document.getElementById("Output2");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      alert("Key Copied To Clipboard");
+    }
+  </script>
+
+
+  <div class="bottom-nav">
+    <div class="bottom-inner">
+      <div class="bottom-main" id="gradient">
+        <div class="nav-items">
+          <div class="nav-item">
+            <a href="ios.html">
+              <span class="bx bxl-apple"></span>
+            </a>
+            <p>iOS</p>
+          </div>
+          <div class="nav-item">
+            <a href="android.html">
+              <span class="bx bxl-android"></span>
+            </a>
+            <p>Android</p>
+          </div>
+        </div>
+        <div class="nav-item-main">
+          <div>
+            <a href="index.html">
+              <span class="bx bx-home"></span>
+            </a>
+          </div>
+        </div>
+        <div class="nav-items">
+          <div class="nav-item">
+            <a href="team.html">
+              <span class="bx bx-user"></span></a>
+            <p>Team</p>
+          </div>
+          <div class="nav-item">
+            <a href="discord.html">
+              <span class="bx bxl-discord"></span></a>
+            <p>Discord</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
