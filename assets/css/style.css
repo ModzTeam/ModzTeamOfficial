@@ -29,8 +29,29 @@ a {
 }
 
 header {
-  background: var(--main-color);
+  background: linear-gradient(#8a2be2, #220839);
   padding: 2rem 1.5rem 5rem 1.5rem;
+  margin: auto;
+  background-size: 200% 200%;
+  animation: animated-nav 10s linear infinite;
+}
+
+@keyframes animated-nav {
+  25% {
+    background-position: left bottom;
+  }
+
+  50% {
+    background-position: right bottom;
+  }
+
+  75% {
+    background-position: right top;
+  }
+
+  100% {
+    background-position: left top;
+  }
 }
 
 header nav {
@@ -670,12 +691,10 @@ main {
 }
 
 .profile-card {
-  width: 350px;
   text-align: center;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 10px;
   overflow: hidden;
-  margin-left: 15px;
 }
 
 .card-header {
