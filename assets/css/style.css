@@ -11,7 +11,7 @@
 :root {
   --main-color: #8a2be2;
   --main-light: #b19cd9;
-  --accent-light: #F4E3B3;
+  --accent-light: #b19cd9;
 }
 
 body {
@@ -229,11 +229,11 @@ main {
 }
 
 .promo-item:last-child h3 {
-  color: orange;
+  color: var(--main-color);
 }
 
 .promo-item:last-child a {
-  color: orange;
+  color: var(--main-color);
 }
 
 .promo-item h3 {
